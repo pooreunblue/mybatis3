@@ -11,7 +11,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class StudentWithCourseDTO {
+public class StudentWithCoursesDTO {
     private Long id;
     private String name;
     private List<Course> courses = new ArrayList<>();
